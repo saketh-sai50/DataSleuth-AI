@@ -1,0 +1,55 @@
+# ── Python / Backend ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables — NEVER commit API keys
+backend/.env
+*.env
+.env.*
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded data files (user data, not source code)
+backend/uploads/
+
+# ── Node / Frontend ────────────────────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.pnp
+.pnp.js
+
+# ── OS / Editor ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/settings.json
+*.log
+
+# ── Misc ───────────────────────────────────────────────────────────────────────
+*.tmp
+*.bak
